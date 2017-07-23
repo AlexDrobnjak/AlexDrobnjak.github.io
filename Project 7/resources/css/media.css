@@ -1,0 +1,114 @@
+@media only screen and (max-width:375px) {
+ body {
+   width: 375px;
+ }
+header {
+  height: 17rem;
+  width: 375px;
+  background-size: cover;
+}
+#navigation {
+  background-color: cadetblue;
+  height: 2rem;
+  max-width: 375px;
+  position: absolute;
+  margin:0;
+}
+#navigation img {
+  padding: 0.25rem;
+}
+#navigation nav {
+    background-color: cadetblue;
+    height: 2rem;
+  text-align: center;
+  border-top: white 2px solid;
+  max-width: 375px;
+}
+
+#navigation span {
+  color: white;
+  vertical-align: middle;
+  font-size: 1rem;
+}
+
+  #navigation ul{
+    display: flex;
+      height: 2rem;
+      width: 60%;
+      margin:0 auto;;
+      justify-content: center;
+    }
+
+  #navigation ul span {
+    color: white;
+    font-size: 0.75rem;
+    vertical-align: middle;
+    margin: 0.5rem 0rem;
+}
+#title {
+background-color: cadetblue;
+  display: inline-block;
+  width:375px;
+  margin: 16rem 0rem 0rem 0rem;
+}
+#title p {
+  font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+    color:white;
+}
+#main-content{
+  width:375px;
+}
+#first-content{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  margin: 5.77rem 0rem 2rem;
+  height: 500px;
+}
+.picture{
+  width: 60%;
+margin: 0 auto;
+height: 150px;
+}
+#first {
+   margin: 0rem 6.25rem 1rem 6.25rem;
+}
+.picture p {
+  display: inline-block;
+  width: 280px;
+  margin: 0 auto;
+}
+#second{
+   margin: 0rem 5.5rem 1rem 5.5rem;
+}
+#second-content{
+  display:block;
+}
+.info {
+  width: 100%;
+  font-size: 0.77rem;
+}
+
+.info h3 {
+  width: 100%;
+}
+footer {
+  background-color: azure;
+  height: 12.5rem;
+  width: 375px;
+  margin: 0;
+}
+footer img{
+  height: 1.5rem;
+  padding: 5.5rem 43%;
+
+}
+footer span{
+color:azure;
+display: none;
+}
+}

@@ -1,0 +1,143 @@
+html, body {
+  margin: 0;
+  padding:0;
+  border: 0px;
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+   height: 30rem;
+   width: auto;
+   background-image: url('../images/SANDRA.jpg');
+   background-position: right;
+   background-size: cover;
+
+}
+
+
+#navigation {
+  background-color: cadetblue;
+  height: 3.5rem;
+  width: 960px;
+  margin-top: 1rem;
+  margin-left: 17%;
+  margin-right:17%;
+  position: absolute;
+
+}
+
+#navigation img {
+  height: 1.5rem;
+  padding:1rem 1rem 1rem 2rem;
+  vertical-align: middle;
+}
+
+#navigation span {
+  color: white;
+  vertical-align: middle;
+  font-size: 1rem;
+
+}
+
+#navigation nav {
+  width: 600px;
+  display: inline-block;
+  text-align: right;
+}
+
+#navigation ul {
+  margin:0;
+  padding:0;
+}
+#navigation span {
+list-style: none;
+color: white;
+vertical-align: middle;
+padding-right: 2rem;
+}
+#title {
+background-color: cadetblue;
+  display: inline-block;
+  position: absolute;
+  margin-top: 14.5rem;
+  margin-right: 1%;
+  margin-left: 58%;
+}
+#title p {
+  font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2;
+    padding: 1.5rem 4rem;
+    margin:0;
+    color:white;
+}
+#first-content{
+  width: 40.65%;
+  display:flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 14rem;
+}
+.picture {
+  margin: 3rem 0rem;
+  height: 8rem;
+}
+
+.picture p {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#first {
+   height: 4.5rem;
+   width: 3.5rem;
+   margin: 0rem 3rem 1rem;
+}
+
+#second{
+   height: 3rem;
+   width: 5rem;
+   margin: 0rem 3rem 2.5rem;
+}
+
+#second-content{
+  display:flex;
+  justify-content: center;
+  margin: 0% 16%;
+}
+
+.info {
+  width: 35%;
+  margin: 0 2.5%;
+  margin-bottom: 5rem;
+}
+
+.info h3 {
+  color:white;
+  background-color: cadetblue;
+  padding: 0.5rem 0rem 0.5rem 1.25rem;
+  width: 10rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: helvetica, sans-serif;
+  margin-bottom: 1rem;
+}
+footer {
+  background-color: azure;
+  height:9.5rem;
+  width: 960px;
+  margin-left: 17%;
+  margin-right:17%;
+  position: absolute;
+}
+footer img{
+  height:1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+  vertical-align: middle;
+}
+footer span{
+  vertical-align: middle;
+}
